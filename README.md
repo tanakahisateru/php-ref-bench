@@ -4,6 +4,20 @@ This project explains how [PHP references](http://php.net/manual/en/language.ref
 
 PhpBench version of http://tanakahisateru.hatenablog.jp/entry/2013/12/12/012728 (Japanese)
 
+## How to run
+
+### On local PHP
+
+```bash
+$ vendor/bin/phpbench run --report=default
+```
+
+### On Docker
+
+```bash
+$ docker run -it --rm -v "$PWD":/bench -w /bench php:7.1 vendor/bin/phpbench run --report=default
+```
+
 ## Results
 
 ```
