@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "phpbench/phpbench": "^0.13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src"
+        }
+    }
+}

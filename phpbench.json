@@ -1,0 +1,11 @@
+{
+    "bootstrap": "vendor/autoload.php",
+    "path": "benchmarks",
+    "progress": "dots",
+    "reports": {
+        "default": {
+            "extends": "aggregate",
+            "cols": ["php_version", "benchmark", "subject", "mean", "mem_peak"]
+        }
+    }
+}
